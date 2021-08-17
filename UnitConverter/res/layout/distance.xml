@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:padding="8dip">
+
+    <EditText
+        android:id="@+id/edtMm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="mm"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtCm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="cm"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="m"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtKm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="km"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="128dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dip"
+        android:text="Convert" />
+
+</LinearLayout>

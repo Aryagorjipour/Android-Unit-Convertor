@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:padding="8dip">
+
+    <EditText
+        android:id="@+id/edtMOnS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="m/s"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtKmOnH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="km/h"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtMilPerH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="mph"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="128dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dip"
+        android:text="Convert" />
+
+</LinearLayout>
